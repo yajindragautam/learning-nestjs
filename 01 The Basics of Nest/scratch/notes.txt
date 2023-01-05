@@ -1,0 +1,2 @@
+003) Create Controller
+Run App Scratch: npx ts-node-dev src/main.ts

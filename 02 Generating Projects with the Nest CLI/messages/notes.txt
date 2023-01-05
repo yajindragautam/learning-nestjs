@@ -1,0 +1,15 @@
+Importent Nestjs Commands
+
+- Create nest app
+window : npx nest new appname
+- Create Module
+window : npx nest generate moduleNname 
+- Create Controller
+window : npx nest generate controller messages/messages --flat
+
+Importent Decorators
+- @Query : Get information out of query 
+- @params : Get information out of params
+- @Headers : Get information out of Headers
+- @Body : Get information out of Body
+- Get : Get 
