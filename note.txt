@@ -25,3 +25,10 @@ Nest works fine with any ORM, but works well out of the box with TypeORM and mon
 
 2) mongoose
 - mongoDB
+
+----- Creatting an Entity
+1) Create an entity file, and create a class in that list all the property that your entity will have.
+
+2) Create the entity to its parent module. This create a reports.
+
+3) Connect the entity to the root Connection(in app module)
