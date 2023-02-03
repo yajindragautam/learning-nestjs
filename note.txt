@@ -1,0 +1,27 @@
+Controllers
+- User Controllers (cmd to create: npx nest g controller users)
+- Report Controllers  (cmd to create: npx nest g controller reports)
+
+SERVICES
+- User Service  (cmd to create: npx nest g service user)
+- Report Service (cmd to create: npx nest g service reports)
+
+REPOSITORY
+- User Repository 
+- Report Repository
+
+MODULE
+- User (cmd to create: npx nest g module user)
+- Repository (cmd to create: npx nest g module reports)
+
+--------- Databse Connections And Notes ----------
+Nest works fine with any ORM, but works well out of the box with TypeORM and mongoose.
+
+1) TypeORM  - is a libary
+- SQLite
+- Postgres
+- MYSQL
+- mongoDB
+
+2) mongoose
+- mongoDB
