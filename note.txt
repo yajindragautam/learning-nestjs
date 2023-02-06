@@ -32,3 +32,14 @@ Nest works fine with any ORM, but works well out of the box with TypeORM and mon
 2) Create the entity to its parent module. This create a reports.
 
 3) Connect the entity to the root Connection(in app module)
+
+---- Repository API
+1) create() - Makes a new instance of an entity, but does not persist it to DB.
+
+2) save() - Adds or uodate a record to the Db.
+
+3) find() - Runs a query and returns a list of entity.
+
+4) findOne() - Run a query, ruturning the fist record maching the search criteria.
+
+5) remove() - Remove a record from the DB.
