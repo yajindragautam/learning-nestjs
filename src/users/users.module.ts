@@ -7,6 +7,7 @@ import { User } from './user.entity'; // User entity is licke user table
 @Module({
   imports:[TypeOrmModule.forFeature([User])],
   controllers: [UsersController],
-  providers: [UsersService, AuthService]
+  providers: [UsersService, AuthService],
+  exports: [UsersService]
 })
 export class UsersModule {}
